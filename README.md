@@ -1,0 +1,2 @@
+# ICategory
+UIKit,UIFoundation+Category
