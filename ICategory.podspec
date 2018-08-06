@@ -7,7 +7,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/dluffymonkey/ICategory"
   s.ios.deployment_target = '9.0'
   s.summary      = "UIKit,UIFoundation+Category"
-  s.description  = "UIKit,UIFoundation+Category, yeah!"
+  s.description  = <<-DESC
+                  UIKit,UIFoundation+Category, yeah!
+                   DESC
   s.source       = { :git => "https://github.com/dluffymonkey/ICategory.git", :tag => "v#{s.version}" }
   
   s.requires_arc = true
