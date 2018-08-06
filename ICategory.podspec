@@ -8,21 +8,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
   s.summary      = "UIKit,UIFoundation+Category"
-  s.description  = <<-DESC
-                   DESC
-  s.source       = { :git => "https://github.com/dluffymonkey/ICategory.git", :tag => "#{s.version}" }
+  s.description  = "UIKit,UIFoundation+Category, yeah!"
+  s.source       = { :git => "https://github.com/dluffymonkey/ICategory.git", :tag => "v#{s.version}" }
   
   s.requires_arc = true
-  s.source_files  = 'Category/**/*.{h,m}'
-  s.public_header_files = 'Category/**/*.{h}'
-
-  s.ios.exclude_files = non_arc_files
-  s.subspec 'no-arc' do |sna|
-    sna.requires_arc = false
-    sna.source_files = non_arc_files
-  end
-
-  s.libraries = 'z', 'sqlite3'
-  s.frameworks = 'UIKit', 'CoreFoundation'
+  s.source_files  = 'Category/*.{h,m}'
+  s.public_header_files = 'Category/*.{h}'
+  s.framework  = "Foundation", "UIKit"
 
 end
