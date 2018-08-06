@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ICategory"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "iLeo" => "1427694267@qq.com" }
   s.social_media_url = 'http://ileo.top'
