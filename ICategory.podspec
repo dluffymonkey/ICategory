@@ -5,7 +5,6 @@ Pod::Spec.new do |s|
   s.author             = { "iLeo" => "1427694267@qq.com" }
   s.social_media_url = 'http://ileo.top'
   s.homepage     = "https://github.com/dluffymonkey/ICategory"
-  s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
   s.summary      = "UIKit,UIFoundation+Category"
   s.description  = "UIKit,UIFoundation+Category, yeah!"
